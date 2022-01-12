@@ -1,8 +1,8 @@
-import * as S from './styles';
+import * as S from './styles'
 
 export type LogoProps = {
-  color?: 'white' | 'black';
-};
+  color?: 'white' | 'black'
+}
 
 const Logo = ({ color = 'white' }: LogoProps) => (
   <S.Wrapper color={color}>
@@ -73,6 +73,6 @@ const Logo = ({ color = 'white' }: LogoProps) => (
       </defs>
     </svg>
   </S.Wrapper>
-);
+)
 
-export default Logo;
+export default Logo

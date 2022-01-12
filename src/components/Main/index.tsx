@@ -1,7 +1,7 @@
-import * as S from 'components/Main/styles';
+import * as S from 'components/Main/styles'
 
-import logo from '../../../public/img/logo.svg';
-import illustration from '../../../public/img/hero-illustration.svg';
+import logo from '../../../public/img/logo.svg'
+import illustration from '../../../public/img/hero-illustration.svg'
 
 const Main = ({
   title = 'React Avançado',
@@ -19,6 +19,6 @@ const Main = ({
       alt="Um desenvolvedor de frente para uma tela com código."
     />
   </S.Wrapper>
-);
+)
 
-export default Main;
+export default Main
