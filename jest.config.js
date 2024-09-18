@@ -14,8 +14,6 @@ module.exports = {
     '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }]
   },
   moduleNameMapper: {
-    '^styled-components':
-      'styled-components/dist/styled-components.browser.cjs.js',
     '\\.(css|less)$': '<rootDir>/node_modules/tailwindcss'
   }
 }
